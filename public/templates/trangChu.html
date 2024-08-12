@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ - Cellphones</title>
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-banner {
+            background-image: url('https://via.placeholder.com/1920x400');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero-banner h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .product-card img {
+            max-height: 200px;
+            object-fit: cover;
+        }
+        .promotion-banner {
+            background-color: #f8f9fa;
+            padding: 10px;
+            border: 1px solid #e9ecef;
+            margin-bottom: 20px;
+        }
+        .btn-custom {
+            background-color: #28a745;
+            color: #fff;
+        }
+        .btn-custom:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Cellphones</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trang Chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sản Phẩm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Khuyến Mãi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Liên Hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <div class="hero-banner">
+        <div>
+            <h1>Chào Mừng Đến Với Cellphones</h1>
+            <p>Khám Phá Những Sản Phẩm Mới Nhất Và Các Khuyến Mãi Hấp Dẫn</p>
+        </div>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Tìm kiếm sản phẩm..." aria-label="Tìm kiếm sản phẩm">
+                    <button class="btn btn-custom" type="button">Tìm kiếm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Promotion Banner -->
+    <div class="promotion-banner text-center">
+        <h5>Khuyến Mãi: Giảm giá lên đến 50% cho các sản phẩm chọn lọc!</h5>
+    </div>
+
+    <!-- Featured Products -->
+    <div class="container">
+        <h2 class="text-center my-4">Sản Phẩm Nổi Bật</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card product-card mb-4">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                      <h5 class="card-title">Samsung ZFOLD 6</h5>
+                        <p class="card-text">$499.99</p>
+                        <a href="/samsung-galaxy-z-fold-6" class="btn btn-custom">Xem Chi Tiết</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card mb-4">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                      <h5 class="card-title">Samsung ZFOLD 5</h5>
+                        <p class="card-text">$299.99</p>
+                        <a href="/samsung-galaxy-z-fold-5" class="btn btn-custom">Xem Chi Tiết</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card mb-4">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung ZFOLD 4</h5>
+                        <p class="card-text">$399.99</p>
+                        <a href="/samsung-galaxy-z-fold-4" class="btn btn-custom">Xem Chi Tiết</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3 mt-4">
+        <p>&copy; 2024 Cellphones. All rights reserved.</p>
+    </footer>
+
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
