@@ -12,12 +12,6 @@ app.get('/', (request, response) => {
   const trangChu = path.join(publicDirectory, '/templates/trangChu.html')
   response.sendFile(trangChu);
 })
-app.get('/samsung-galaxy-z-fold-:id', (request, response) => {
-  //lấy sản phẩm có id = :id
-  //
-  const chiTietSanPham = path.join(publicDirectory, '/templates/chiTietSanPham.html')
-  response.sendFile(chiTietSanPham);
-})
 
 app.get('/chi-tiet-san-pham', (request, response) => {
   //lấy sản phẩm có id = :id
